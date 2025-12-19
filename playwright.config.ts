@@ -32,7 +32,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     baseURL: 'https://loginxp.vercel.app',
     video:  'retain-on-failure',
-    screenshot: 'on'
+    screenshot: 'only-on-failure',
   },
 
   /* Configure projects for major browsers */
