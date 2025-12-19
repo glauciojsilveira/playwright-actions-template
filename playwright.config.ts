@@ -30,7 +30,10 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    baseURL: 'https://loginxp.vercel.app'
+    baseURL: 'https://loginxp.vercel.app',
+    video: 'on'
+    // viewport: { width: 1280, height: 720 },
+    
   },
 
   /* Configure projects for major browsers */
