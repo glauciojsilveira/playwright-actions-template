@@ -32,8 +32,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     baseURL: 'https://loginxp.vercel.app',
     video: 'on',
-    viewport: { width: 1280, height: 720 }
-    
+    screenshot: 'on'
   },
 
   /* Configure projects for major browsers */
